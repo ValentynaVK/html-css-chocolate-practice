@@ -1,7 +1,16 @@
 .hero {
+  padding: 0 0 80px;
+}
+
+.hero-wrapper {
+  border-radius: 30px;
+  padding: 380px 40px 40px;
   background-color: rgba(17, 17, 17, 0.4);
 }
+
 .hero-title {
+  margin-bottom: 32px;
+  max-width: 484px;
   font-weight: 500;
   font-size: 28px;
   line-height: 1.21;
