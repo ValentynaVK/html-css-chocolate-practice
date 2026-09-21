@@ -19,6 +19,9 @@
 }
 
 .hero-link {
+  display: inline-flex;
+  align-items: center;
+
   font-weight: 500;
   color: #fff;
 }
@@ -29,4 +32,14 @@
 }
 
 .hero-link-icon {
+}
+
+.hero-link-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 19px;
+  width: 38px;
+  height: 38px;
+  background: #fff;
 }

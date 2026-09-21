@@ -128,9 +128,12 @@ address {
 /* Button */
 
 .btn {
+  padding: 14px 40px;
+
   font-weight: 600;
   background-color: transparent;
-  border: none;
+  border: 1px solid transparent;
+  border-radius: 100px;
 }
 .btn-filled {
   color: #fff;
@@ -146,16 +149,19 @@ address {
 .btn-outlined {
 }
 .primary {
+  border-color: #fff;
   color: #fff;
 }
 
 .primary:hover,
 .primary:focus {
+  border-color: #fd9222;
   color: #fd9222;
 }
 
 .secondary {
   color: #111;
+  border-color: #fd9222;
 }
 
 .secondary:hover,
