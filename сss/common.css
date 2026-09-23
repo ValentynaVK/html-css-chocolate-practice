@@ -117,6 +117,10 @@ address {
   border-radius: 10px;
 }
 
+.socials-light .socials-link {
+  background-color: #fff;
+}
+
 .socials-link:hover,
 .socials-link:focus {
   border: 1px solid rgba(253, 146, 34, 0.1);
@@ -160,6 +164,8 @@ address {
 }
 
 .secondary {
+  display: block;
+  margin: 0 auto;
   color: #111;
   border-color: #fd9222;
 }
