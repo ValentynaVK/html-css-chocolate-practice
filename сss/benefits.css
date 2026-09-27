@@ -10,6 +10,21 @@
 .benefits-item {
   width: 308px;
 }
+
+.benefits-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 62px;
+  height: 62px;
+  margin-bottom: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 365px;
+}
+.benefits-icon {
+}
+
 .benefits-subtitle {
   margin-bottom: 18px;
 
