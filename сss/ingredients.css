@@ -48,7 +48,12 @@
   border: none;
   background-color: transparent;
 }
-.ingredients-icon {
+.ingredients-item:nth-child(2n) .ingredients-icon {
+  color: #fd9222;
+}
+
+.ingredients-item:nth-child(2n + 1) .ingredients-icon {
+  color: #fafafa;
 }
 
 .ingredients-ill {
