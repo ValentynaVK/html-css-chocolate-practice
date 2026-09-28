@@ -8,7 +8,20 @@
   gap: 88px;
 }
 .benefits-item {
+  position: relative;
   width: 308px;
+}
+.benefits-item:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -44px;
+  transform: translateY(-50%);
+
+  display: block;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 1px;
+  height: 124px;
 }
 
 .benefits-wrapper {
