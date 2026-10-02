@@ -215,3 +215,33 @@
 }
 .btn-filled {
 }
+
+/* Form Validation */
+
+.modal-form-input:user-invalid,
+.modal-form-comment:user-invalid {
+  border: #e74a3b;
+}
+
+/* + обирає тільки наступного сусіда */
+.modal-form-input:user-invalid + .modal-form-icon {
+  color: #e74a3b;
+}
+
+.error-icon {
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  transform: translateY(-50%);
+
+  opacity: 0;
+  pointer-events: none;
+
+  transition: 300ms ease-out;
+  transition-property: opacity;
+}
+
+/* ~ обирає через декілька сусідів */
+.modal-form-input:user-invalid ~ .error-icon {
+  opacity: 1;
+}
